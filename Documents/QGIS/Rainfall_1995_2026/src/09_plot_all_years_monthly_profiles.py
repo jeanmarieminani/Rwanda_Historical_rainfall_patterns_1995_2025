@@ -260,7 +260,7 @@ def make_all_years_grid(monthly, climatology, config, logger, ncols=4):
             ax.set_xlabel("Month")
 
     fig.suptitle(
-        "Rwanda Monthly Rainfall Profiles for All Years\n"
+        "Rwanda Monthly Rainfall Profiles 1995-2026\n"
         "CHIRPS v3 versus 1995–2024 climatology",
         fontsize=16,
         fontweight="bold",
