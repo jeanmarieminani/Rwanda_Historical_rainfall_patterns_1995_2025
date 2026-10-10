@@ -1,0 +1,2 @@
+n_years,r_squared,adjusted_r_squared,model
+31,0.08829,-0.01301,OLS HC3; contemporaneous ON ONI/DMI; explanatory only

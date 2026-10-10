@@ -1,0 +1,46 @@
+﻿# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets and local editor/OS files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Downloaded CHIRPS Africa rasters and clipped Rwanda rasters
+/data/raw/chirps/
+/data/processed/
+*.tif.aux.xml
+*.tif.part
+*.tmp
+*.part
+
+# Runtime logs
+/logs/
+*.log
+
+# Keep key scientific figures, omit redundant large paged copies
+/outputs/figures/07_all_years_monthly_profiles_page_*.png
+
+# Intermediate map exports and temporary QGIS files
+/outputs/maps/
+*.qgz~
+*.qgs~
+
+# Optional: if your shapefile license prohibits redistribution,
+# uncomment the following line BEFORE staging files:
+# /data/boundaries/
+
+# Small /outputs/tables/*.csv are intentionally tracked.
+# Small /data/indices/*.csv and metadata JSON are intentionally tracked.
+

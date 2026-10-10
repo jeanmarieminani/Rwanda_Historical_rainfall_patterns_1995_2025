@@ -1,0 +1,3 @@
+﻿model,n_test_years,brier_score
+Climatology,16,0.110470
+LogisticRegression,16,0.158639

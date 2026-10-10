@@ -1,0 +1,2 @@
+﻿year,issue_basis,jas_complete,on_complete,jul_aug_mm,july_august_dry,july_oni,august_dmi,on_p90_threshold_mm,historical_extreme_years,historical_years,climatology_probability,ml_probability,warning
+2026,CHIRPS observed through Aug 2026; ONI centered Jul; DMI Aug,False,False,34.578584,False,1.800000,0.680000,386.180080,3,31,0.109375,0.310078,Exploratory estimate; use only if out-of-sample skill improves on climatology. July ONI availability must be checked against actual publication date.

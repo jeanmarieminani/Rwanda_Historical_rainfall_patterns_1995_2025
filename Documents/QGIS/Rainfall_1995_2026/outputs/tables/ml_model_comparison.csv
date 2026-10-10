@@ -1,0 +1,13 @@
+target,model,n_test_years,MAE_mm
+nov,Climatology,16,30.353337793773015
+nov,RandomForest,16,27.883355684022618
+nov,Ridge,16,29.72726462794747
+oct,Climatology,16,27.59458927846285
+oct,RandomForest,16,24.6750710208021
+oct,Ridge,16,25.726042645271512
+on_total,Climatology,16,44.954909656067514
+on_total,RandomForest,16,45.411073194471655
+on_total,Ridge,16,44.86387282592602
+sep,Climatology,16,20.64586302426951
+sep,RandomForest,16,21.397233420972398
+sep,Ridge,16,22.0452487114475

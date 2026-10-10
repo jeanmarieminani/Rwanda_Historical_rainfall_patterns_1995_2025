@@ -1,0 +1,4 @@
+﻿comparison,n_years,dry_and_wet,dry_notwet,notdry_and_wet,notdry_notwet,p_wet_given_dry,dry_ci95_low,dry_ci95_high,p_wet_given_notdry,notdry_ci95_low,notdry_ci95_high,risk_difference,odds_ratio,fisher_p
+JAS p20 -> ON p90,31,0,6,3,22,0.000000,0.000078,0.330389,0.120000,0.034985,0.286728,-0.120000,0.000000,1.000000
+JAS p20 -> ON p80,31,2,4,4,21,0.333333,0.076770,0.713577,0.160000,0.056520,0.336853,0.173333,2.625000,0.567040
+Jul-Aug p20 -> ON p90,31,0,6,3,22,0.000000,0.000078,0.330389,0.120000,0.034985,0.286728,-0.120000,0.000000,1.000000

@@ -1,0 +1,31 @@
+﻿# GIS and spatial raster processing
+geopandas>=1.0,<2.0
+rasterio>=1.4,<2.0
+shapely>=2.0,<3.0
+pyproj>=3.6,<4.0
+
+# Climate data analysis
+numpy>=2.0,<3.0
+pandas>=2.2,<3.0
+xarray>=2024.1
+rioxarray>=0.17
+netCDF4>=1.7
+
+# Statistical analysis
+scipy>=1.14,<2.0
+statsmodels>=0.14,<1.0
+pymannkendall>=1.4,<2.0
+climate-indices>=2.0,<3.0
+
+# Plots and visualization
+matplotlib>=3.9,<4.0
+seaborn>=0.13,<1.0
+cartopy>=0.23,<1.0
+
+# Downloads and utilities
+requests>=2.32,<3.0
+tqdm>=4.66,<5.0
+PyYAML>=6.0,<7.0
+
+# Development and testing
+pytest>=8.0,<10.0

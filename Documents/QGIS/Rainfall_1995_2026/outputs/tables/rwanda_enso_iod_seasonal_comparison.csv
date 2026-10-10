@@ -1,0 +1,8 @@
+phase_variable,phase,n_years,mean_ON_mm,mean_ON_anomaly_pct,mean_JJAS_mm
+aug_enso_phase,cold -0.5 to -1.5,8,286.57050,-4.15488,213.74227
+aug_enso_phase,neutral,17,303.36729,1.46290,190.00713
+aug_enso_phase,warm 0.5-1.5,4,276.90273,-7.38832,121.25245
+aug_enso_phase,warm >=1.5,2,358.17442,19.79345,168.72628
+aug_iod_phase,negative <=-0.4,5,278.37490,-6.89595,204.88249
+aug_iod_phase,neutral,19,296.00153,-1.00062,180.70159
+aug_iod_phase,positive >=0.4,7,322.55204,7.87934,186.39702

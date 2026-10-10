@@ -1,0 +1,13 @@
+year,month,status,output_file,valid_pixels,minimum_mm,maximum_mm,message
+2023,1,skipped,data\processed\RWA_CHIRPS_2023_01.tif,,,,
+2023,2,skipped,data\processed\RWA_CHIRPS_2023_02.tif,,,,
+2023,3,skipped,data\processed\RWA_CHIRPS_2023_03.tif,,,,
+2023,4,skipped,data\processed\RWA_CHIRPS_2023_04.tif,,,,
+2023,5,skipped,data\processed\RWA_CHIRPS_2023_05.tif,,,,
+2023,6,skipped,data\processed\RWA_CHIRPS_2023_06.tif,,,,
+2023,7,skipped,data\processed\RWA_CHIRPS_2023_07.tif,,,,
+2023,8,skipped,data\processed\RWA_CHIRPS_2023_08.tif,,,,
+2023,9,skipped,data\processed\RWA_CHIRPS_2023_09.tif,,,,
+2023,10,skipped,data\processed\RWA_CHIRPS_2023_10.tif,,,,
+2023,11,downloaded,data\processed\RWA_CHIRPS_2023_11.tif,829,107.404,347.205,
+2023,12,downloaded,data\processed\RWA_CHIRPS_2023_12.tif,829,103.769,327.694,

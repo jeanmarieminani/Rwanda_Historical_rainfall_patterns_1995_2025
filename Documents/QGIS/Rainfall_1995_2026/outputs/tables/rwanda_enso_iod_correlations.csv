@@ -1,0 +1,15 @@
+index,lag_months,meaning,n_months,pearson_r,pearson_p,spearman_rho,spearman_p
+oni,0,contemporaneous (not a forecast),62,0.19091,0.13718,0.16032,0.21321
+oni,1,index precedes Oct/Nov rainfall,62,0.19208,0.13475,0.14868,0.24878
+oni,2,index precedes Oct/Nov rainfall,62,0.20721,0.10610,0.14549,0.25921
+oni,3,index precedes Oct/Nov rainfall,62,0.24637,0.05357,0.18565,0.14856
+oni,4,index precedes Oct/Nov rainfall,62,0.24969,0.05033,0.18925,0.14070
+oni,5,index precedes Oct/Nov rainfall,62,0.24901,0.05098,0.22823,0.07440
+oni,6,index precedes Oct/Nov rainfall,62,0.20158,0.11615,0.21245,0.09736
+dmi,0,contemporaneous (not a forecast),62,0.21679,0.09057,0.14276,0.26833
+dmi,1,index precedes Oct/Nov rainfall,62,0.17669,0.16951,0.08994,0.48694
+dmi,2,index precedes Oct/Nov rainfall,62,0.24265,0.05740,0.15358,0.23336
+dmi,3,index precedes Oct/Nov rainfall,62,0.20689,0.10665,0.17658,0.16979
+dmi,4,index precedes Oct/Nov rainfall,62,0.06669,0.60653,0.06090,0.63823
+dmi,5,index precedes Oct/Nov rainfall,62,0.12736,0.32391,0.14162,0.27221
+dmi,6,index precedes Oct/Nov rainfall,62,0.06480,0.61679,0.08281,0.52228

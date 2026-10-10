@@ -1,0 +1,21 @@
+{
+  "downloaded_utc": "2026-10-10T03:30:10.336112+00:00",
+  "start_year": 1995,
+  "end_year": 2026,
+  "calendar_records": 384,
+  "oni_available": 380,
+  "dmi_available": 380,
+  "sources": {
+    "oni": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/oni/v6/index.php",
+    "dmi": "https://www.cpc.ncep.noaa.gov/products/international/ocean_monitoring/IODMI/mnth.ersstv6.clim19912020.dmi_current.txt"
+  },
+  "oni_definition": "NOAA CPC ONI v6: overlapping three-month mean Ni\u00f1o-3.4 SST anomaly assigned to the central calendar month.",
+  "dmi_definition": "NOAA CPC Dipole Mode Index calculated from WTIO minus SETIO sea-surface temperature anomalies.",
+  "units": {
+    "oni": "degrees Celsius",
+    "dmi": "degrees Celsius"
+  },
+  "missing_values": "Blank CSV cells indicate missing or unpublished observations.",
+  "data_type": "observed_indices",
+  "notes": "Latest published values may be revised. This dataset contains observations, not future ENSO or IOD forecasts."
+}

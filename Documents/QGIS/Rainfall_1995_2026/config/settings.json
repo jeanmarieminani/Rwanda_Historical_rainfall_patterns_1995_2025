@@ -1,0 +1,94 @@
+﻿{
+  "project": {
+    "name": "Rwanda CHIRPS Rainfall Analysis",
+    "description": "Rainfall variability, dry-to-wet transitions and ENSO-IOD teleconnections",
+    "country": "Rwanda",
+    "start_year": 1995,
+    "end_year": 2026,
+    "last_requested_month": 12,
+    "historical_complete_year_end": 2025,
+    "rainfall_units": "mm",
+    "timezone": "Africa/Kigali"
+  },
+
+  "paths": {
+    "boundary": "data/boundaries/RWA_adm0.shp",
+    "raw_chirps": "data/raw/chirps",
+    "processed": "data/processed",
+    "climate_indices": "data/indices",
+    "figures": "outputs/figures",
+    "tables": "outputs/tables",
+    "maps": "outputs/maps",
+    "logs": "logs"
+  },
+
+  "chirps": {
+    "version": "3.0",
+    "product": "final",
+    "region": "africa",
+    "resolution_degrees": 0.05,
+    "base_url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/",
+    "filename_pattern": "chirps-v3.0.{year}.{month:02d}.tif",
+    "download_timeout_seconds": 120,
+    "download_retries": 3,
+    "skip_existing": true,
+    "skip_unavailable_future_months": true
+  },
+
+  "spatial_analysis": {
+    "boundary_crs": "EPSG:4326",
+    "clip_to_boundary": true,
+    "all_touched": false,
+    "national_average_method": "area_weighted",
+    "preserve_nodata": true
+  },
+
+  "climatology": {
+    "reference_start_year": 1995,
+    "reference_end_year": 2024,
+    "standard_start_year": 1991,
+    "standard_end_year": 2020,
+    "use_reference_period": "1995-2024"
+  },
+
+  "seasons": {
+    "JJA": [6, 7, 8],
+    "JJAS": [6, 7, 8, 9],
+    "ON": [10, 11],
+    "SON": [9, 10, 11],
+    "SOND": [9, 10, 11, 12],
+    "MAM": [3, 4, 5]
+  },
+
+  "drought_analysis": {
+    "dry_percentile": 20,
+    "extreme_dry_percentile": 10,
+    "wet_percentile": 80,
+    "extreme_wet_percentile": 90,
+    "spi_scales_months": [1, 3, 4, 6, 12]
+  },
+
+  "enso_iod": {
+    "enso_index": "RONI",
+    "historical_comparison_index": "ONI",
+    "iod_index": "DMI",
+    "enso_elnino_threshold": 0.5,
+    "enso_lanina_threshold": -0.5,
+    "strong_elnino_threshold": 1.5,
+    "iod_positive_threshold": 0.4,
+    "iod_negative_threshold": -0.4,
+    "lag_months": [0, 1, 2, 3, 4, 5, 6],
+    "indices_file": "data/indices/enso_iod_monthly.csv"
+  },
+
+  "visualization": {
+    "figure_dpi": 300,
+    "figure_format": "png",
+    "figure_width_inches": 12,
+    "figure_height_inches": 6,
+    "monthly_tick_interval_years": 5,
+    "plot_dry_wet_transitions": true,
+    "plot_enso_iod_events": true,
+    "save_csv_tables": true
+  }
+}
